@@ -1,11 +1,9 @@
 
-## Level 1 ##
+## Level 0 ##
 
 **Password:** *bandit0*
 
-### Commands ###
-
 ```bash
-	ssh bandit0@bandit.labs.overthewire.org
+	ssh bandit0@bandit.labs.overthewire.org -p 2220
 	cat readme
 ```
