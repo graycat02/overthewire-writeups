@@ -10,6 +10,7 @@
 	xxd -r data.txt data.gz
 	gzip -d data.gz
 	bzip2 -d data
+	mv data.out data.gz
 	gzip -d data.out
 	tar -xf data
 	tar -xf data5.bin
@@ -17,4 +18,5 @@
 	tar -xf data6.bin.out
 	mv data8.bin data8.gz
 	gzip -d data8.gz
+	cat data8
 ```
